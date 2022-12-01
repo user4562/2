@@ -1,0 +1,97 @@
+/* index */
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  background-color: #070217;
+}
+
+.logo,
+.navigantion {
+  margin-bottom: 50px;
+}
+
+.navigantion-link {
+  display: inline-block;
+  padding: 24px 49px;
+}
+
+.navigantion-link:not(:last-child) {
+  margin-right: 25px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+/* article */
+
+
+.container {
+  margin: 0 auto;
+  padding: 80px 0;
+  width: 1170px;
+}
+
+.header-title {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.paragraph {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 40px;
+  width: 872px;
+}
+
+.section-grey-title,
+.section-title
+{
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.section-grey {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #f3f3f3;
+}
+
+.section-grey:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.section-grey .paragraph {
+  width: 692px;
+  margin-bottom: 10px;
+}
+
+.section-grey .paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.navigation-list {
+  margin: 0;
+  padding-left: 15px;
+}
+
+.navigation-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.figure {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 40px;
+  width: 872px;
+}
+
+.image {
+  margin-bottom: 40px;
+}
