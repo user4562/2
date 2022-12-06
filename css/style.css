@@ -1,3 +1,27 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'font', sans-serif;
+}
+
+
 /* index */
 
 .main-content {
@@ -24,11 +48,6 @@
   margin-right: 25px;
 }
 
-.link {
-  color: white;
-  text-decoration: none;
-}
-
 /* article */
 
 
@@ -44,7 +63,6 @@
 }
 
 .paragraph {
-  display: inline-block;
   margin: 0;
   margin-bottom: 40px;
   width: 872px;
