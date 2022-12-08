@@ -181,7 +181,7 @@ body {
 
 .navigation-list {
   margin: 0;
-  padding-left: 15px;
+  padding-left: 40px;
 }
 
 .navigation-item::marker {
@@ -239,12 +239,9 @@ body {
   margin-bottom: 25px;
 }
 
-.modules-link {
+.link-homepage {
   display: block;
   color: #3f2aff;
-}
-
-.link-homepage {
   padding-left: 52px;
   margin-bottom: 25px;
 
@@ -352,11 +349,14 @@ body {
   color: #eaeaea;
 }
 
-.link-view-more {
+.footer {
   margin: 0 auto;
-  padding: 24.5px 76.5px;
   width: 274px;
   height: 70px;
+}
+
+.button {
+  padding: 25px 76px;
   border: 2px solid #3F2aff;
 
   font-weight: 700;
@@ -364,4 +364,6 @@ body {
   line-height: 21px;
   text-align: center;
   white-space: nowrap;
+
+  color: #3F2aff;
 }
