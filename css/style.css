@@ -181,7 +181,7 @@ body {
 
 .navigation-list {
   margin: 0;
-  padding-left: 15px;
+  padding-left: 40px;
 }
 
 .navigation-item::marker {
@@ -235,16 +235,14 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
 }
 
-.modules-logo {
+.link-skillbox {
+  display: block;
   margin-bottom: 25px;
 }
 
-.modules-link {
+.link-homepage {
   display: block;
   color: #3f2aff;
-}
-
-.link-homepage {
   padding-left: 52px;
   margin-bottom: 25px;
 
@@ -282,6 +280,7 @@ body {
 
 .card-item {
   display: inline-block;
+  position: relative;
   margin-bottom: 25px;
   padding: 205px 25px 25px;
 
@@ -315,12 +314,6 @@ body {
   background-image: url("../img/modules/photo-card-4.jpg");
 }
 
-.card-content {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
 .card-title {
   margin: 0;
 
@@ -342,8 +335,8 @@ body {
 .card-number {
   position: absolute;
   margin: 0;
-  right: 0;
-  bottom: 0;
+  right: 25px;
+  bottom: 25px;
 
   font-weight: 400;
   font-size: 40px;
@@ -352,11 +345,12 @@ body {
   color: #eaeaea;
 }
 
-.link-view-more {
-  margin: 0 auto;
-  padding: 24.5px 76.5px;
-  width: 274px;
-  height: 70px;
+.footer {
+  text-align: center;
+}
+
+.button {
+  padding: 25px 76px;
   border: 2px solid #3F2aff;
 
   font-weight: 700;
@@ -364,4 +358,7 @@ body {
   line-height: 21px;
   text-align: center;
   white-space: nowrap;
+
+  color: #3F2aff;
+  background-color: transparent;
 }
